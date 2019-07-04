@@ -1,13 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
-function App() {
-    return(
-        <div>
-            <p>Hey world</p>
-        </div>
-    )
-}
+import './index.css';
+import App from './components/App';
 
 ReactDOM.render(<App />, document.getElementById('app'));

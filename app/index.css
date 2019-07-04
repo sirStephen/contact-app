@@ -18,6 +18,10 @@ html {
     box-sizing: inherit; 
 }
 
+:focus {
+    outline: none;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.6rem;
@@ -48,3 +52,65 @@ body {
     display: flex !important;
 }
   
+.p-2 {
+    padding: 2rem;
+}
+
+.navigation-container {
+    background-color: #4748A0;
+    color: #ffffff;
+}
+
+.navigation-content {
+    align-items: center;
+}
+
+.profile-image-container {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 3rem;
+}
+
+.profile-image-container img {
+    width: 100%;
+    border-radius: 18rem;
+}
+
+.logo-name-container {
+    padding: 0 3rem;
+}
+
+input[type='text'] {
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem 1.5rem;
+    border-radius: .5rem;
+}
+
+input[type='text'].input-effect {
+    padding-left: 3.5rem;
+    background-color: #6450B0;
+}
+
+::placeholder {
+    color: white;
+}
+
+.input-effect {
+    border: none;
+}
+
+.search-container {
+    width: 75%;
+    display: inline-flex;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    color: #ffffff;
+    padding: 1rem;
+}
