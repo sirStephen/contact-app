@@ -4,4 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 
+// eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(<App />, document.getElementById('app'));
+
+module.hot.accept(App);
