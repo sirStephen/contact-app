@@ -68,7 +68,7 @@ body {
 .profile-image-container {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 10rem;
 }
 
 .profile-image-container img {
@@ -104,7 +104,7 @@ input[type='text'].input-effect {
 }
 
 .search-container {
-    width: 75%;
+    width: 69%;
     display: inline-flex;
     position: relative;
 }
@@ -113,4 +113,36 @@ input[type='text'].input-effect {
     position: absolute;
     color: #ffffff;
     padding: 1rem;
+}
+
+.sidebar-container {
+    width: 28%;
+    border-right: .1rem solid lightgray;
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+}
+
+.tr-image {
+    flex-grow: 0;
+    width: 7rem;
+    height: 7rem;
+}
+
+.tr-image img {
+    width: 100%;
+    border-radius: 180px;
+}
+
+td {
+    flex-grow: 1;
+    padding: 1rem;
+    width: 25%;
 }
